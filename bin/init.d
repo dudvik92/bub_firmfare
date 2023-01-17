@@ -1,0 +1,13 @@
+.\bin\init.o: src\init.c
+.\bin\init.o: src\..\inc\init.h
+.\bin\init.o: .\SPL\MDR32F9Qx_rst_clk.h
+.\bin\init.o: .\CMSIS\MDR32Fx.h
+.\bin\init.o: .\CMSIS\core_cm3.h
+.\bin\init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\bin\init.o: .\CMSIS\system_MDR32F9Qx.h
+.\bin\init.o: .\SPL\MDR32F9Qx_lib.h
+.\bin\init.o: .\SPL\MDR32F9Qx_port.h
+.\bin\init.o: .\SPL\MDR32F9Qx_config.h
+.\bin\init.o: .\SPL\MDR32F9Qx_uart.h
+.\bin\init.o: .\SPL\MDR32F9Qx_timer.h
+.\bin\init.o: .\SPL\MDR32F9Qx_adc.h

@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\bin\adc_1.o"
+".\bin\cistern.o"
+".\bin\connection.o"
+".\bin\crc16.o"
+".\bin\handlers.o"
+".\bin\init.o"
+".\bin\main.o"
+".\bin\pump.o"
+".\bin\thermocouple.o"
+".\bin\vtimers.o"
+".\bin\startup_mdr32f9x.o"
+".\bin\mdr32f9qx_adc.o"
+".\bin\mdr32f9qx_port.o"
+".\bin\mdr32f9qx_rst_clk.o"
+".\bin\mdr32f9qx_timer.o"
+".\bin\mdr32f9qx_uart.o"
+".\bin\core_cm3.o"
+".\bin\system_mdr32f9qx.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\bub_firmware.map" -o .\bin\bub_firmware.axf
